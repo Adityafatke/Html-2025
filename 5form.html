@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form in html</title>
+    <link rel="stylesheet" href="../CSS/05form.css">
+  </head>
+  <body>
+    <center>
+    <table border="3">
+    <tr>
+        <td colspan="2">
+    <center><strong>Application Form</strong></center>
+  </td>
+  </tr>
+    <form action="not required">
+     
+        <tr>
+          <td>
+      <label for="name">First Name :</label>
+      <input type="name" placeholder="Enter a name" id="name" required/>
+      <td>
+      <label for="last" type="name">Last Name :</label>
+      <input type="name" id="last" placeholder="Enter a last name" required>
+    
+    </td>
+      </tr>
+      <br />
+      <tr>
+        <td>
+      <label for="birth">Date Of Birh :</label>
+      <input type="date" id="birth" />
+      </td>
+      <td>
+      <label for="a">Age :</label>
+      <input type="age" placeholder="Enter a age" id="a"/>
+    </td></tr>
+      <br/>
+      <tr>
+        <td>
+          <label for="gen">Gender :</label>
+      <select name="gender" id="gen">
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+      </select>
+      </td>
+
+      <td>
+       <label for="mail">Email Address :</label>
+      <input type="email" placeholder="Enter Email Address" id="mail">
+    </td></tr>
+      <br>
+      <tr>
+        <td colspan="2">
+      <label>Positions Available :</label>
+      <input type="radio" id="jr" name="lan" />
+      <label for="jr">Junior Developer</label>
+      <input type="radio" id="md" name="lan" />
+      <label for="md">Mid Level Developer</label>
+      <input type="radio" id="sr" name="lan" />
+      <label for="sr">Senior Developer</label>
+    </td></tr>
+      <br />
+      <tr>
+        <td colspan="2">
+      <label>Programming Languages :</label>
+      <input type="checkbox" id="Java" name="Java" />
+      <label for="Java">Java</label>
+      <input type="checkbox" id="js" name="js" />
+      <label for="js">Javascript</label>
+      <input type="checkbox" id="py" name="py" />
+      <label for="py">Python</label>
+      </td>
+      </tr>
+      <br>
+<tr>
+  <td>
+      <label for="pass">Password :</label>
+      <input type="password" id="pass" placeholder="Enter a password" />
+</td>
+<td>
+      <label for="cpass"> Confirm Password :</label>
+      <input type="password" id="cpass" placeholder="Enter Confirm password">
+    </td>
+  </tr>
+      <br />
+      <tr>
+        <th>
+      <input class="Button" type="submit" Submit />
+      </th>
+      <th>
+      <input class="Button" type="reset" Reset />
+    </th>
+  </tr>
+    </form>
+    </table>
+  </center>
+  </body>
+</html>

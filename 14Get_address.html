@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <form action="not required">
+        <table cellpadding="10"  cellspacing="0" border="5" style=" background-color: orange; font-family: Serif ; border-radius: 20px;" >
+          <tr>
+            <th colspan="2">Mahadbt Login</th>
+          </tr>
+          <tr>
+            <td><label for="name">First Name</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                placeholder="enter a name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="last">Last Name</label></td>
+            <td>
+              <input
+                type="text"
+                id="last"
+                placeholder="enter a last name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mail">Email</label></td>
+            <td>
+              <input
+                type="email"
+                id="mail"
+                placeholder="enter a email"required/>
+            </td>
+          </tr>
+          <tr>
+            <td><button>Verify Email</button></td>
+            <td>
+              <input type="number" max="4" id="otp" placeholder="OTP" />
+              <input
+                type="text"
+                placeholder="Note:Email ID verification is mandatory."
+                readonly
+                size="31"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="no">Mobile No</label></td>
+            <td><input type="number" placeholder="+91" required /></td>
+          </tr>
+          <tr>
+            <td><button for="otp">Verify Mobile no</button></td>
+            <td>
+              <input type="number" max="4" id="otp" placeholder="OTP" />
+              <input
+                type="text"
+                placeholder="Note:Mobile No verification is mandatory"
+                readonly
+                size="32"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="add">Address</label></td>
+            <td>
+              <label for="add">Country :</label>
+              <select name="add" id="add">
+                <option>Select</option>
+                <option>India</option>
+                <option>Usa</option>
+                <option>Uae</option>
+                <option>Rashia</option>
+                <option>England</option>
+              </select>
+
+              <label for="add">State :</label>
+              <select name="add" id="add">
+                <option>Select</option>
+                <option>Maharastra</option>
+                <option>Gujrat</option>
+                <option>Bihar</option>
+                <option>Delhi</option>
+                <option>Rajasthan</option>
+                <option>Hariyana</option>
+              </select>
+
+              <label for="Dist">Dist :</label>
+             <select name="Dist" id="Dist">
+                <option>Select</option>
+                <option>Ahilyanagar</option>
+                <option>Ch.Sambhajinagar</option>
+                <option>Nashik</option>
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Jalna</option>
+              </select>
+              <br />
+
+              <label for="tal">Tal :&nbsp;&nbsp;&nbsp;</label>
+              <select name="tal" id="tal">
+                <option>Select</option>
+                <option>Shevgaon</option>
+                <option>Pathardi</option>
+                <option>Neawasa</option>
+                <option>Karjat</option>
+                <option>Jamkhed</option>
+                <option>Parner</option>
+              </select>
+            
+              <label for="village">Village:</label>
+              <select name="Village" id="village">
+                <option>Select</option>
+                <option>Baktarpur</option>
+                <option>Devtakli</option>
+                <option>Mathachivadi</option>
+                <option>Khanapur</option>
+                <option>Bhatkudgaon</option>
+                <option>Karhetakli</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="3"><button>Submit</button>
+           <button>Reset</button></th>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>

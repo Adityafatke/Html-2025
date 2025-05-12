@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <center>
+    <table bgColor="ORANGE" >
+      <tr>
+        <th colspan="2"><h3>Student Registration Form</h3></th>
+      </tr>
+      <form>
+        <tr>
+          <td>
+            <label for="name">First Name :</label>
+          </td>
+          <td>
+            <input type="name" placeholder="Aditya" id="name" required />
+            <label>(Max 50 characters Allowed)</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="last">Last Name :</label>
+          </td>
+          <td>
+            <input type="name" id="last" placeholder="Fatke" required />
+            <label>(Max 50 characters Allowed)</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="mail">Email ID :</label>
+          </td>
+          <td>
+            <input type="email" id="mail" placeholder="Fatkeadi455@gmail.com" required/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="mob">Mobile Number:</label>
+          </td>
+          <td>
+            <input type="number" id="mob" placeholder="80106212**" required />
+            <label>(10 Digit Allowed)</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Gender :</label>
+          </td>
+          <td>
+            <input type="radio" name="gen" id="gen" />
+            <label for="gen">Male</label>
+            <input type="radio" name="gen" id="f" />
+            <label for="f">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dob">Date Of Birth (DOB) :</label>
+          </td>
+          <td>
+            <input type="date" id="dob" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="add">Address :</label>
+          </td>
+          <td>
+            <textarea
+              id="add"
+              placeholder="Enter a Address"rows="5"cols="29"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">City :</label>
+          </td>
+          <td>
+            <input type="text" id="city" placeholder="Pune" />
+            <label>(Max 50 Character Allowed )</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pin">Pin Code :</label>
+          </td>
+          <td>
+            <input type="number" id="pin" placeholder="414502" />
+            <label>(Max 6 Numbers Allowed)</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="state">Maharastra</label>
+          </td>
+          <td>
+            <input type="text" id="state" placeholder="Maharastra" />
+            <label>(Max 50 Characters Allowed)</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="country">Country</label>
+          </td>
+          <td>
+            <input type="text" id="country" placeholder="India" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="hoby">Hobbies :</label>
+          </td>
+          <td>
+            <input type="checkbox" id="dr" />
+            <label for="dr">Drawing</label>
+            <input type="checkbox" id="song" />
+            <label for="song">Singing</label>
+            <input type="checkbox" id="dance" />
+            <label for="dance">Dancing</label>
+            <input type="checkbox" id="sketch" />
+            <label for="sketch">Sketching</label>
+            <br />
+            <input type="checkbox" id="other" />
+            <label for="other">Other</label>
+            <input type="text" id="other" placeholder="Ex.Teaching" />
+            <label>(Max 50 Character Allowed)</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="qualifi">Qualification</label>
+          </td>
+          <td>
+            <input type="checkbox" id="1oth" />
+            <label for="1oth">High School (10th)</label>
+
+            <input type="checkbox" id="12th" />
+            <label for="12th">Higher School (12th)</label>
+
+            <input type="checkbox" id="15th" />
+            <label for="15th">Graduation(Bachelors)</label>
+            <br />
+            <input type="checkbox" id="17th" />
+            <label for="17th">Post Graduation(Masters)</label>
+            <input type="checkbox" id="phd" />
+            <label for="phd">Phd</label>
+          </td>
+        </tr>
+        <hr>
+        <tr>
+          <td>
+            <label for="curses">Courses Applied For : </label>
+          </td>
+          <td>
+            <input type="radio" name="fac" id="bca" />
+            <label for="bca">BCA(Bachelor of Computer Applications)</label>
+            <br />
+            <input type="radio" name="fac" id="bcom" />
+            <label for="bcom">BCOM(Bachelor of Commerce )</label>
+            <br />
+            <input type="radio" name="fac" id="bsc" />
+            <label for="bsc">BSC(Bachelor of Science)</label>
+            <br />
+            <input type="radio" name="fac" id="ba" />
+            <label for="ba">BCA(Bachelor of Arts)</label>
+            <br />
+            <input type="radio" name="fac" id="mca" />
+            <label for="mca">MCA(Master of Computer Applications)</label>
+            <br />
+            <input type="radio" name="fac" id="mcom" />
+            <label for="mcom">BCA(Masters In Commerce)</label>
+            <br />
+            <input type="radio" name="fac" id="msc" />
+            <label for="msc">MSC(Masters Of Science)</label>
+            <br />
+            <input type="radio" name="fac" id="ma" />
+            <label for="ma">MA(Master Of Arts)</label>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <button>Submit</button>
+            <button>Reset</button>
+          </th>
+        </tr>
+      </form>
+    </table>
+    </center>
+  </body>
+</html>
